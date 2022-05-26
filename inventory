@@ -1,0 +1,1 @@
+192.168.56.107 apache_package=httpd dhcpd_package=dhcp samba_package=samba

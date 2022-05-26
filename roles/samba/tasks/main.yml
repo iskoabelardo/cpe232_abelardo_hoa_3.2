@@ -1,0 +1,10 @@
+---
+# tasks file for samba
+
+- name: install samba
+  package:
+   name: 
+     - "{{ samba_package }}"
+   state: latest
+   update_cache: yes
+  when: ansible_distribution == "CentOS"
